@@ -16,7 +16,7 @@
         font-size: 3rem;
         letter-spacing: 1.5rem;
         text-transform: uppercase;
-        font-size: 700;
+        font-size: 500;
         animation: moveInRight 1s .2s ease-out;
        
     }
@@ -25,7 +25,32 @@
         font-size: 3rem;
         letter-spacing: 1rem;
         text-transform: uppercase;
-        font-size: 700;
+        font-size: 500;
         animation: moveInRight 1s .2s ease-out;
     }
+}
+
+.heading-secondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, $color-primary-light,$color-primary-dark);
+    display: inline-block;
+    color:$color-white-light;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    width:100%;
+}
+.heading-tertiary{
+    font-size: 3rem;
+    color:$color-grey-light;
+}
+.paragraph{
+    font-size: 2rem;
+    color:$color-grey-light;
+
+&::first-letter{
+    font-size: 3rem;
+}
 }
