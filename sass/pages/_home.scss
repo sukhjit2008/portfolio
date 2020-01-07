@@ -1,5 +1,17 @@
 .section-about{
-    padding:25rem 0;
+    padding:32rem 0;
     background-color: $color-grey-light-1;
     margin:-20rem 0;
+}
+.section-features{
+    padding:10rem 0;
+    background-image: linear-gradient(to right bottom ,rgba($color-primary-light,.80),rgba($color-primary-dark,.80)),url(../img/header-2.jpg);
+    background-size: cover;
+    background-position: 60%;
+    transform: skewY(-7deg);
+    & >*{
+        transform: skewY(7deg);
+    }
+    margin-top: -10rem;
+    
 }
